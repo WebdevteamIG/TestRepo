@@ -1,9 +1,9 @@
 name: Reward Contributor
 # This workflow is triggered on pushes to the repository.
 on:
-    push:
-        branches:
-            -main
+  push:
+    branches:
+      -main
 
 jobs:
   reward:

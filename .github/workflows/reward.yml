@@ -1,0 +1,16 @@
+name: Reward Contributor
+# This workflow is triggered on pushes to the repository.
+on:
+    push:
+        branches:
+            -master
+
+jobs:
+  reward:
+    runs-on : ubuntu-latest
+    name : A job giving points
+    steps:
+      - name : Checking out 
+        uses : actions/checkout@v1
+      - name : Rewarding Action
+        uses : saitejach127/osf-testing@v1.0

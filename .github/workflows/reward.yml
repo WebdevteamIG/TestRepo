@@ -12,4 +12,4 @@ jobs:
       - name : Checking out 
         uses : actions/checkout@v1
       - name : Adding points
-        uses : saitejach127/osf-testing@v1.0
+        uses : saitejach127/osf-testing@v1.1
